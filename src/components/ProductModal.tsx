@@ -109,14 +109,14 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
       <div className="absolute inset-0" onClick={onClose} />
 
       <div
-        className="relative bg-white w-full max-w-xl max-h-[92vh] sm:max-h-[90vh] rounded-t-bubble-xl sm:rounded-bubble-xl shadow-2xl border-t-2 sm:border-2 border-cream-300 flex flex-col overflow-hidden z-10 overscroll-contain"
+        className="relative bg-white w-full max-w-xl max-h-[85dvh] sm:max-h-[90vh] rounded-t-bubble-xl sm:rounded-bubble-xl shadow-2xl border-t-2 sm:border-2 border-cream-300 flex flex-col overflow-hidden z-10 overscroll-contain"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Mobile Handle Drag Indicator */}
         <div className="w-12 h-1 bg-cream-400 rounded-full mx-auto mt-2.5 mb-1 sm:hidden shrink-0" />
 
         {/* Header Bar */}
-        <div className="p-3.5 sm:p-4 border-b border-cream-200 flex items-center justify-between bg-cream-50">
+        <div className="p-3.5 sm:p-4 border-b border-cream-200 flex items-center justify-between bg-cream-50 shrink-0">
           <div className="flex items-center gap-2">
             <span className="font-bold text-base sm:text-lg text-ink-900 truncate">{product.title}</span>
             <span className="text-[11px] sm:text-xs bg-cream-200 text-ink-700 px-2 py-0.5 rounded-full font-bold shrink-0">
@@ -319,7 +319,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
         </div>
 
         {/* Footer Subtotal & Add Button with Mobile Safe Padding */}
-        <div className="p-3 sm:p-4 border-t border-cream-200 bg-cream-50 flex items-center justify-between gap-3 pb-safe sm:pb-4">
+        <div className="p-3 sm:p-4 border-t border-cream-200 bg-cream-50 flex items-center justify-between gap-3 pb-safe sm:pb-4 shrink-0 z-10">
           
           {/* Quantity Stepper */}
           <div className="flex items-center gap-1.5 sm:gap-2 bg-white rounded-full border-2 border-cream-300 p-1 shrink-0">

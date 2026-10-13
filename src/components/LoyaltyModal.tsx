@@ -58,12 +58,12 @@ export const LoyaltyModal: React.FC<LoyaltyModalProps> = ({ isOpen, onClose }) =
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-ink-900/60 backdrop-blur-sm animate-fadeIn">
       <div className="absolute inset-0" onClick={onClose} />
       <div
-        className="relative z-10 bg-white w-full max-w-md max-h-[92vh] rounded-t-bubble-xl sm:rounded-bubble-xl shadow-2xl border-t-2 sm:border-2 border-cream-300 flex flex-col overflow-hidden overscroll-contain"
+        className="relative z-10 bg-white w-full max-w-md max-h-[85dvh] sm:max-h-[90vh] rounded-t-bubble-xl sm:rounded-bubble-xl shadow-2xl border-t-2 sm:border-2 border-cream-300 flex flex-col overflow-hidden overscroll-contain"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Mobile Drag Indicator */}
         <div className="w-12 h-1 bg-cream-400 rounded-full mx-auto mt-2.5 mb-1 sm:hidden shrink-0" />
-        {/* Header (Always anchored on top) */}
+        {/* Header */}
         <div className="p-4 sm:p-5 border-b border-cream-200 bg-cream-50 flex items-center justify-between shrink-0">
           <div className="flex items-center gap-2">
             <Coins className="w-5 h-5 text-coral-500" />
@@ -77,8 +77,8 @@ export const LoyaltyModal: React.FC<LoyaltyModalProps> = ({ isOpen, onClose }) =
           </button>
         </div>
 
-        {/* Scrollable Content Body */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5 sm:space-y-6 overscroll-contain">
+        {/* Scrollable Content Container */}
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5 overscroll-contain">
           
           {/* Card Summary */}
           <div className="rounded-bubble-lg bg-gradient-to-br from-coral-500 to-coral-600 p-5 text-white shadow-bubbly-coral relative overflow-hidden">
@@ -170,11 +170,11 @@ export const LoyaltyModal: React.FC<LoyaltyModalProps> = ({ isOpen, onClose }) =
 
         </div>
 
-        {/* Sticky Footer with Mobile Safe Area (Always visible & clickable) */}
-        <div className="p-4 border-t border-cream-200 bg-cream-50 text-center pb-safe sm:pb-4 shrink-0 relative z-20 shadow-md">
+        {/* Footer with Mobile Safe Padding & Fixed Visibility */}
+        <div className="p-3 sm:p-4 border-t border-cream-200 bg-cream-50 text-center pb-safe sm:pb-4 shrink-0 z-10">
           <button
             onClick={onClose}
-            className="w-full py-3 px-4 rounded-full bg-coral-500 hover:bg-coral-600 text-white font-extrabold text-sm bubble-button shadow-bubbly-coral cursor-pointer min-h-[44px]"
+            className="w-full py-3 px-4 rounded-full bg-coral-500 hover:bg-coral-600 text-white font-extrabold text-xs sm:text-sm bubble-button shadow-bubbly-coral min-h-[44px] flex items-center justify-center"
           >
             Tutup & Kembali ke Katalog
           </button>

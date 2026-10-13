@@ -99,12 +99,12 @@ export const WhatsAppModal: React.FC<WhatsAppModalProps> = ({ isOpen, onClose })
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-ink-900/60 backdrop-blur-sm animate-fadeIn">
       <div className="absolute inset-0" onClick={onClose} />
       <div
-        className="relative z-10 bg-white w-full max-w-lg max-h-[92vh] rounded-t-bubble-xl sm:rounded-bubble-xl shadow-2xl border-t-2 sm:border-2 border-cream-300 flex flex-col overflow-hidden overscroll-contain"
+        className="relative z-10 bg-white w-full max-w-lg max-h-[85dvh] sm:max-h-[90vh] rounded-t-bubble-xl sm:rounded-bubble-xl shadow-2xl border-t-2 sm:border-2 border-cream-300 flex flex-col overflow-hidden overscroll-contain"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Mobile Drag Indicator */}
         <div className="w-12 h-1 bg-cream-400 rounded-full mx-auto mt-2.5 mb-1 sm:hidden shrink-0" />
-        {/* Header (Always anchored) */}
+        {/* Header */}
         <div className="p-4 sm:p-5 border-b border-cream-200 bg-cream-50 flex items-center justify-between shrink-0">
           <div className="flex items-center gap-2.5">
             <div className="w-10 h-10 rounded-full bg-scallion-500 text-white flex items-center justify-center shadow-bubbly-scallion">
@@ -131,7 +131,7 @@ export const WhatsAppModal: React.FC<WhatsAppModalProps> = ({ isOpen, onClose })
         </div>
 
         {/* Body */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5 overscroll-contain">
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5">
           
           {/* Admin WhatsApp Router Selection (PRD 4.3 Multi-Admin Routing) */}
           <div className="p-3.5 rounded-bubble bg-cream-100 border border-cream-300 space-y-2">
@@ -229,7 +229,7 @@ export const WhatsAppModal: React.FC<WhatsAppModalProps> = ({ isOpen, onClose })
         </div>
 
         {/* Footer Actions with Mobile Safe Padding */}
-        <div className="p-4 sm:p-5 border-t border-cream-200 bg-cream-50 space-y-2 pb-safe sm:pb-5 shrink-0 relative z-20 shadow-md">
+        <div className="p-4 sm:p-5 border-t border-cream-200 bg-cream-50 space-y-2 pb-safe sm:pb-5 shrink-0 z-10">
           {!orderSent ? (
             <button
               onClick={handleOpenWhatsApp}
