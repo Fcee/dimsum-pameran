@@ -26,7 +26,17 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     const saved = localStorage.getItem('dimsum_store_config');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        // Automatically sync whatsappRouters if old default routers were saved
+        if (
+          !parsed.whatsappRouters ||
+          parsed.whatsappRouters[0]?.phone === '6281288991122' ||
+          parsed.whatsappRouters[0]?.name === 'Kak Maya'
+        ) {
+          parsed.whatsappRouters = (initialConfig as StoreConfig).whatsappRouters;
+          localStorage.setItem('dimsum_store_config', JSON.stringify(parsed));
+        }
+        return parsed;
       } catch (e) {
         console.error('Failed to parse saved config', e);
       }

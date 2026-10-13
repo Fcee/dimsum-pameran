@@ -14,15 +14,15 @@
   "whatsappRouters": [
     {
       "id": "wa-1",
-      "name": "Kak Maya",
-      "phone": "6281288991122",
+      "name": "Kak Ikmal",
+      "phone": "6283846115305",
       "role": "Admin Booth Pameran",
       "avatarColor": "coral"
     },
     {
       "id": "wa-2",
-      "name": "Kak Dimas",
-      "phone": "6281377884455",
+      "name": "Admin Kasir",
+      "phone": "6283173892763",
       "role": "Admin Kasir & Pre-Order",
       "avatarColor": "scallion"
     }
