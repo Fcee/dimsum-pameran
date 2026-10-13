@@ -1,0 +1,77 @@
+{
+  "merchantId": "DIMSUM-TT-01",
+  "name": "Dimsum Titik Temu",
+  "tagline": "Spesialis Dimsum Kukus, Mentai Torch & Goreng Crispy",
+  "boothLocation": "Pameran Kuliner Nusantara - Booth B-14",
+  "eventName": "Festival Jajanan Rasa 2026",
+  "city": "Jakarta",
+  "operatingHours": {
+    "timezone": "Asia/Jakarta",
+    "open": "09:00",
+    "close": "22:00",
+    "daysOpen": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+  },
+  "whatsappRouters": [
+    {
+      "id": "wa-1",
+      "name": "Kak Maya",
+      "phone": "6281288991122",
+      "role": "Admin Booth Pameran",
+      "avatarColor": "coral"
+    },
+    {
+      "id": "wa-2",
+      "name": "Kak Dimas",
+      "phone": "6281377884455",
+      "role": "Admin Kasir & Pre-Order",
+      "avatarColor": "scallion"
+    }
+  ],
+  "bundlingRules": [
+    {
+      "minQty": 3,
+      "discountPercent": 10,
+      "label": "Paket Kumpul (Diskon 10%)",
+      "description": "Beli minimal 3 porsi dimsum apa saja, hemat 10% langsung di nota!"
+    },
+    {
+      "minQty": 5,
+      "discountPercent": 15,
+      "label": "Paket Pesta Pameran (Diskon 15%)",
+      "description": "Beli minimal 5 porsi dimsum, hemat 15% + bonus cocolan ekstra!"
+    }
+  ],
+  "theme": {
+    "preset": "cute-coral-cream-scallion",
+    "colors": {
+      "primary": "#FF6B6B",
+      "secondary": "#FFF9F0",
+      "accent": "#2E8B57"
+    },
+    "fontFamily": "Fredoka"
+  },
+  "pickupOptions": [
+    {
+      "id": "booth_pickup",
+      "label": "Ambil di Booth B-14",
+      "estimatedTime": "10-15 Menit",
+      "extraFee": 0,
+      "description": "Antrean ekspres di booth pameran tanpa antri panjang di kasir"
+    },
+    {
+      "id": "dine_in_table",
+      "label": "Antar ke Meja Pameran",
+      "estimatedTime": "15-20 Menit",
+      "extraFee": 0,
+      "description": "Tim kami antar langsung ke nomor meja festival tempat Anda duduk"
+    },
+    {
+      "id": "delivery_instant",
+      "label": "Kurir Online / Ambil Sendiri",
+      "estimatedTime": "20-30 Menit",
+      "extraFee": 0,
+      "description": "Pesan sekarang, driver ojek online jemput di titik lobi pameran"
+    }
+  ]
+}
+

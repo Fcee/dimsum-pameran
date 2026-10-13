@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #FFF9F0;
+    color: #231815;
+    overscroll-behavior-y: none;
+  }
+}
+
+/* Custom rounded scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF2E0;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFC8BF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B6B;
+}
+
+/* Hide scrollbar for clean horizontal touch scrolling on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Tactile Bubble Button & Card Utilities */
+.bubble-button {
+  transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+  touch-action: manipulation;
+}
+.bubble-button:active {
+  transform: translateY(2px) scale(0.97);
+}
+
+.bubble-card {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+  touch-action: manipulation;
+}
+@media (hover: hover) {
+  .bubble-card:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* Gentle Steam Puff Keyframe for Dimsum Steamer visual touch */
+@keyframes steamPuff {
+  0% {
+    transform: translateY(0) scaleX(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-8px) scaleX(1.15);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-16px) scaleX(0.9);
+    opacity: 0;
+  }
+}
+
+.steam-anim {
+  animation: steamPuff 2.5s infinite ease-out;
+}
+.steam-anim-delayed {
+  animation: steamPuff 2.5s infinite ease-out 1.25s;
+}
+
+/* Safe Area Inset Support for Modern Mobile Phones (iPhone notch & dynamic island) */
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+.bottom-safe {
+  bottom: env(safe-area-inset-bottom);
+}

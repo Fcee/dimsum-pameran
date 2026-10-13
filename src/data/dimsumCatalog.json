@@ -1,0 +1,366 @@
+[
+  {
+    "id": "DS-001",
+    "title": "Siomay Ayam Jamur Premium",
+    "shortDesc": "Siomay ayam montok dengan cacahan jamur kuping gurih dan kulit tipis lembut.",
+    "description": "Dibuat dari 85% paha ayam segar berkualitas tanpa bahan pengawet. Tekstur kenyal juicy berpadu dengan jamur shitake dan jamur kuping yang renyah harum. Disajikan hangat mengepul langsung dari kukusan bambu.",
+    "category": "kukus",
+    "basePrice": 22000,
+    "pieceCount": 4,
+    "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "badge": "Terlaris",
+    "rating": 4.9,
+    "reviewCount": 384,
+    "isBestSeller": true,
+    "isChefSpecial": false,
+    "prepTimeMinutes": 8,
+    "variantGroups": [
+      {
+        "id": "serving_type",
+        "groupName": "Penyajian",
+        "required": true,
+        "options": [
+          { "id": "hot_steamed", "name": "Kukus Panas (Siap Santap)", "priceAdd": 0, "description": "Hangat mengepul di wadah bambu ramah lingkungan" },
+          { "id": "frozen_pack", "name": "Frozen Vacuum Pack", "priceAdd": 1000, "description": "Kemasan kedap udara + saus terpisah, awet 1 bulan di freezer" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Original Gurih", "desc": "Tanpa pedas, cocok untuk semua usia" },
+      { "level": 1, "label": "Chili Oil Sedang", "desc": "Pedas wangi minyak cabai dan ebi aromatik" },
+      { "level": 2, "label": "Chili Oil Ekstra", "desc": "Sensasi pedas membakar khas Szechuan" }
+    ],
+    "addOns": [
+      { "id": "add_mentai", "name": "Tambahan Saus Mentai Bakar", "price": 5000, "recommended": true },
+      { "id": "add_chili_jar", "name": "Cup Chili Oil Ekstra (30ml)", "price": 3000 },
+      { "id": "add_mayo", "name": "Saus Tartar Bawang Putih", "price": 3000 }
+    ]
+  },
+  {
+    "id": "DS-002",
+    "title": "Hakau Udang Kristal Juicy",
+    "shortDesc": "Kulit transparan super lembut membungkus udang utuh segar nan renyah manis.",
+    "description": "Kulit gandum kristal yang tembus pandang buatan tangan. Di dalamnya berisi udang laut utuh yang manis dan kenyal, dibumbui minyak wijen murni. Gigitan pertama melepaskan kaldu gurih yang memanjakan lidah.",
+    "category": "kukus",
+    "basePrice": 26000,
+    "pieceCount": 4,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "badge": "Pilihan Koki",
+    "rating": 4.9,
+    "reviewCount": 260,
+    "isBestSeller": false,
+    "isChefSpecial": true,
+    "prepTimeMinutes": 10,
+    "variantGroups": [
+      {
+        "id": "serving_type",
+        "groupName": "Penyajian",
+        "required": true,
+        "options": [
+          { "id": "hot_steamed", "name": "Kukus Panas (Siap Santap)", "priceAdd": 0, "description": "Kukus segar langsung di booth" },
+          { "id": "frozen_pack", "name": "Frozen Vacuum Pack", "priceAdd": 1000, "description": "Kemasan beku siap kukus di rumah" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Original Gurih", "desc": "Rasa murni udang kristal manis" },
+      { "level": 1, "label": "Chili Oil Sedang", "desc": "Dip minyak cabai harum" }
+    ],
+    "addOns": [
+      { "id": "add_kecap_asin", "name": "Kecap Asin Jahe Rempah", "price": 2000, "recommended": true },
+      { "id": "add_chili_jar", "name": "Cup Chili Oil Ekstra (30ml)", "price": 3000 }
+    ]
+  },
+  {
+    "id": "DS-003",
+    "title": "Dimsum Mentai Torch Spesial",
+    "shortDesc": "Siomay ayam dibalut saus mentai creamy tobiko lalu dibakar dengan api torch.",
+    "description": "Menu paling diminati di pameran! Siomay premium dilapisi saus mentai mayo Jepang racikan rahasia bertabur telur ikan terbang (tobiko), lalu di-torch hingga menghasilkan aroma smoky harum dan warna karamel keemasan yang menggoda.",
+    "category": "mentai",
+    "basePrice": 28000,
+    "pieceCount": 4,
+    "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "badge": "Signature",
+    "rating": 5.0,
+    "reviewCount": 512,
+    "isBestSeller": true,
+    "isChefSpecial": true,
+    "prepTimeMinutes": 12,
+    "variantGroups": [
+      {
+        "id": "mentai_topping",
+        "groupName": "Topping Mentai",
+        "required": true,
+        "options": [
+          { "id": "tobiko_classic", "name": "Original Tobiko Torch", "priceAdd": 0, "description": "Saus mentai dengan limpahan telur ikan tobiko" },
+          { "id": "mozza_melt", "name": "Double Mozzarella Melt", "priceAdd": 4000, "description": "Tambahan keju mozzarella leleh melar di atas mentai" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Creamy Lembut", "desc": "Sensasi manis gurih creamy khas Jepang" },
+      { "level": 1, "label": "Spicy Mentai", "desc": "Ditaburi bubuk cabai togarashi pedas wangi" }
+    ],
+    "addOns": [
+      { "id": "add_nori_crust", "name": "Taburan Nori Panggang Renyah", "price": 2000, "recommended": true },
+      { "id": "add_chili_jar", "name": "Cup Chili Oil Ekstra (30ml)", "price": 3000 }
+    ]
+  },
+  {
+    "id": "DS-004",
+    "title": "Dimsum Nori Daging Gurih",
+    "shortDesc": "Daging ayam dan udang berbalut rumput laut panggang renyah beraroma laut.",
+    "description": "Kombinasi cincangan ayam empuk dan udang segar yang dibalut lembaran nori rumput laut berkualitas tinggi. Di bagian atasnya diberi garnish wortel cincang halus. Aromatik, lezat, dan tidak enek.",
+    "category": "kukus",
+    "basePrice": 23000,
+    "pieceCount": 4,
+    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "rating": 4.8,
+    "reviewCount": 190,
+    "prepTimeMinutes": 8,
+    "variantGroups": [
+      {
+        "id": "serving_type",
+        "groupName": "Penyajian",
+        "required": true,
+        "options": [
+          { "id": "hot_steamed", "name": "Kukus Panas (Siap Santap)", "priceAdd": 0, "description": "Disajikan hangat langsung" },
+          { "id": "frozen_pack", "name": "Frozen Vacuum Pack", "priceAdd": 1000, "description": "Kemasan beku praktis" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Original Gurih", "desc": "Aroma nori laut alami" },
+      { "level": 1, "label": "Chili Oil Sedang", "desc": "Paduan nori dan sambal cabai gurih" }
+    ],
+    "addOns": [
+      { "id": "add_mentai", "name": "Tambahan Saus Mentai Bakar", "price": 5000 },
+      { "id": "add_chili_jar", "name": "Cup Chili Oil Ekstra (30ml)", "price": 3000 }
+    ]
+  },
+  {
+    "id": "DS-005",
+    "title": "Pangsit Udang Goreng Mayones",
+    "shortDesc": "Pangsit keemasan super renyah dengan isian udang padat, dicocol saus tartar mayo.",
+    "description": "Kulit pangsit khusus yang digoreng garing renyah keemasan seketika saat pesanan tiba. Isian daging udang yang padat berair di dalamnya berpadu dengan cocolan saus mayones asam manis yang segar.",
+    "category": "goreng",
+    "basePrice": 24000,
+    "pieceCount": 4,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "badge": "Renyah Maksimal",
+    "rating": 4.9,
+    "reviewCount": 215,
+    "isBestSeller": true,
+    "prepTimeMinutes": 10,
+    "variantGroups": [
+      {
+        "id": "serving_type",
+        "groupName": "Penyajian",
+        "required": true,
+        "options": [
+          { "id": "hot_fried", "name": "Goreng Hangat Crispy", "priceAdd": 0, "description": "Baru diangkat dari penggorengan" },
+          { "id": "frozen_pack", "name": "Frozen Pack (Siap Goreng)", "priceAdd": 0, "description": "Dapat digoreng atau menggunakan air fryer" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Original Gurih", "desc": "Renyah gurih tanpa pedas" },
+      { "level": 1, "label": "Saus Asam Manis Pedas", "desc": "Cocolan pedas manis khas Thailand" }
+    ],
+    "addOns": [
+      { "id": "add_extra_mayo", "name": "Cup Saus Mayo Garlic Ekstra", "price": 3000, "recommended": true },
+      { "id": "add_sambal_bangkok", "name": "Cup Sambal Bangkok Manis", "price": 3000 }
+    ]
+  },
+  {
+    "id": "DS-006",
+    "title": "Lumpia Kulit Tahu Crispy Udang",
+    "shortDesc": "Dibalut kulit tahu premium yang tipis dan garing, gurihnya tiada tanding.",
+    "description": "Dibuat dari lembaran kulit kembang tahu pilihan yang membungkus cincangan udang laut, daun bawang, dan bengkuang untuk tekstur krenyes yang menyegarkan. Renyah di luar dan lembut berkaldu di dalam.",
+    "category": "goreng",
+    "basePrice": 25000,
+    "pieceCount": 3,
+    "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "rating": 4.8,
+    "reviewCount": 178,
+    "prepTimeMinutes": 10,
+    "variantGroups": [
+      {
+        "id": "serving_type",
+        "groupName": "Penyajian",
+        "required": true,
+        "options": [
+          { "id": "hot_fried", "name": "Goreng Hangat Crispy", "priceAdd": 0, "description": "Garing maksimal baru ditiriskan" },
+          { "id": "frozen_pack", "name": "Frozen Pack", "priceAdd": 0, "description": "Siap goreng di rumah" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Original Gurih", "desc": "Kerenyahan kulit tahu alami" },
+      { "level": 1, "label": "Pedas Saus Bangkok", "desc": "Ditemani saus cocol pedas segar" }
+    ],
+    "addOns": [
+      { "id": "add_chili_jar", "name": "Cup Chili Oil Ekstra (30ml)", "price": 3000, "recommended": true }
+    ]
+  },
+  {
+    "id": "DS-007",
+    "title": "Xiao Long Bao Kuah Hangat",
+    "shortDesc": "Pangsit sup tradisional dengan kuah kaldu ayam gurih yang lumer saat digigit.",
+    "description": "Karya seni kuliner dimsum klasik. Di dalam kulit lipatan halus tersimpan kuah kaldu ayam pekat yang dimasak berjam-jam. Santap perlahan menggunakan sendok bebek beralas cuka hitam dan irisan jahe segar.",
+    "category": "kukus",
+    "basePrice": 27000,
+    "pieceCount": 4,
+    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "badge": "Sensasi Kuah",
+    "rating": 4.9,
+    "reviewCount": 240,
+    "prepTimeMinutes": 12,
+    "variantGroups": [
+      {
+        "id": "soup_flavor",
+        "groupName": "Pilihan Kaldu",
+        "required": true,
+        "options": [
+          { "id": "chicken_broth", "name": "Kaldu Ayam Herbal", "priceAdd": 0, "description": "Kuah kaldu gurih harum dengan jahe" },
+          { "id": "truffle_chicken", "name": "Minyak Truffle Kaldu", "priceAdd": 5000, "description": "Aroma mewah ekstrak black truffle" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 0, "label": "Original Kaldu Hangat", "desc": "Rasa sup murni menenangkan" },
+      { "level": 1, "label": "Sentuhan Jahe Pedas", "desc": "Ditambah jahe segar pereda hawa dingin" }
+    ],
+    "addOns": [
+      { "id": "add_black_vinegar", "name": "Cup Cuka Hitam & Jahe", "price": 2000, "recommended": true },
+      { "id": "add_chili_jar", "name": "Cup Chili Oil Ekstra (30ml)", "price": 3000 }
+    ]
+  },
+  {
+    "id": "DS-008",
+    "title": "Bakpao Telur Asin Lava Lembut",
+    "shortDesc": "Bakpao kukus selembut awan dengan isian krim kuning telur asin manis meleleh.",
+    "description": "Bakpao kukus hangat bertabur biji wijen emas. Saat dibelah dua, saus krim kuning telur asin gurih manis akan mengalir meleleh sempurna. Pilihan penutup manis gurih paling disukai anak dan dewasa.",
+    "category": "kukus",
+    "basePrice": 22000,
+    "pieceCount": 3,
+    "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "rating": 4.8,
+    "reviewCount": 162,
+    "prepTimeMinutes": 8,
+    "variantGroups": [
+      {
+        "id": "bun_filling",
+        "groupName": "Varian Rasa",
+        "required": true,
+        "options": [
+          { "id": "salted_egg", "name": "Golden Lava Telur Asin", "priceAdd": 0, "description": "Krim manis gurih meleleh" },
+          { "id": "taro_creamy", "name": "Taro Ungu Creamy", "priceAdd": 0, "description": "Pasta talas manis wangi lembut" }
+        ]
+      }
+    ],
+    "addOns": [
+      { "id": "add_extra_bun", "name": "Tambah 1 Pcs Bakpao", "price": 7000 }
+    ]
+  },
+  {
+    "id": "DS-009",
+    "title": "Dimsum Platter Festival (16 Pcs)",
+    "shortDesc": "Paket komplit 4 macam dimsum favorit dalam satu kukusan bambu besar.",
+    "description": "Sangat cocok untuk dinikmati bersama teman atau keluarga di pameran! Berisi 4 Siomay Ayam Jamur, 4 Hakau Kristal, 4 Pangsit Udang Goreng, dan 4 Dimsum Nori. Lengkap dengan 3 cocolan saus istimewa.",
+    "category": "platter",
+    "basePrice": 88000,
+    "pieceCount": 16,
+    "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "badge": "Hemat Rame-Rame",
+    "rating": 5.0,
+    "reviewCount": 145,
+    "isBestSeller": true,
+    "isChefSpecial": true,
+    "prepTimeMinutes": 15,
+    "variantGroups": [
+      {
+        "id": "platter_prep",
+        "groupName": "Kombinasi Sajian",
+        "required": true,
+        "options": [
+          { "id": "mix_hot", "name": "Mix Siap Santap di Booth", "priceAdd": 0, "description": "Disajikan hangat dalam wadah festival bersekat" },
+          { "id": "all_frozen", "name": "Paket Frozen Box Hampers", "priceAdd": 3000, "description": "Kotak hampers kedap udara dengan ice pack" }
+        ]
+      }
+    ],
+    "spiceLevels": [
+      { "level": 1, "label": "Saus Lengkap (Original & Pedas)", "desc": "Mendapatkan saus cabe, kecap asin jahe, dan chili oil" }
+    ],
+    "addOns": [
+      { "id": "add_mentai_platter", "name": "Upgrade Saus Mentai Bakar di 4 Pcs", "price": 6000, "recommended": true },
+      { "id": "add_extra_chili_jar", "name": "Botol Chili Oil Jar (100ml)", "price": 18000 }
+    ]
+  },
+  {
+    "id": "DS-010",
+    "title": "Es Teh Jasmine Madu Dingin",
+    "shortDesc": "Seduhan teh melati wangi dengan madu alami hutan dan perasan lemon segar.",
+    "description": "Minuman penyegar dahaga setelah menikmati dimsum hangat. Daun melati pilihan diseduh secara higienis, diberi manis lembut dari madu murni dan es batu kristal bersih.",
+    "category": "minuman",
+    "basePrice": 8000,
+    "pieceCount": 1,
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "rating": 4.8,
+    "reviewCount": 310,
+    "prepTimeMinutes": 3,
+    "variantGroups": [
+      {
+        "id": "sweetness_level",
+        "groupName": "Tingkat Manis",
+        "required": true,
+        "options": [
+          { "id": "sweet_normal", "name": "Normal Honey Sweet", "priceAdd": 0 },
+          { "id": "sweet_less", "name": "Less Sweet (Rendah Madu)", "priceAdd": 0 }
+        ]
+      }
+    ],
+    "addOns": [
+      { "id": "add_selasih", "name": "Topping Biji Selasih Segar", "price": 2000, "recommended": true }
+    ]
+  },
+  {
+    "id": "DS-011",
+    "title": "Es Liang Teh Herbal Dingin",
+    "shortDesc": "Teh herbal tradisional tiongkok dengan rasa sejuk penyeimbang panas dalam.",
+    "description": "Dibuat dari campuran bunga krisan, daun pandan, dan akar alang-alang alami. Rasa manis tipis dan memberi sensasi segar sejuk di tenggorokan, sangat cocok diminum bersama gorengan dimsum.",
+    "category": "minuman",
+    "basePrice": 10000,
+    "pieceCount": 1,
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80",
+    "stockStatus": "in_stock",
+    "rating": 4.9,
+    "reviewCount": 140,
+    "prepTimeMinutes": 3,
+    "variantGroups": [
+      {
+        "id": "liang_type",
+        "groupName": "Suhu",
+        "required": true,
+        "options": [
+          { "id": "cold_ice", "name": "Dingin dengan Es Kristal", "priceAdd": 0 },
+          { "id": "warm_cup", "name": "Hangat Menenangkan", "priceAdd": 0 }
+        ]
+      }
+    ],
+    "addOns": [
+      { "id": "add_grass_jelly", "name": "Potongan Cincau Hitam", "price": 2000, "recommended": true }
+    ]
+  }
+]
+
